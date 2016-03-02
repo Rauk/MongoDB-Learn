@@ -25,8 +25,10 @@ public class MainClass {
     public static void main(String[] args) throws ParseException {
         MongoClient mongoClient = new MongoClient();
         MongoDatabase db = mongoClient.getDatabase("test");
-
+//
 //        DateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.ENGLISH);
+
+//        Insert
 //        db.getCollection("restaurants").insertOne(
 //            new Document("address",
 //                new Document()
